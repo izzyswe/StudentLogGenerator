@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="656.0" xmlns="http://javafx.com/javafx/21.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="isaackim_sec001_ex02.StudentController">
+   <children>
+      <VBox layoutX="14.0" layoutY="10.0" prefHeight="294.0" prefWidth="351.0">
+         <children>
+            <HBox prefHeight="31.0" prefWidth="360.0">
+               <children>
+                  <Label prefHeight="43.0" prefWidth="104.0" text="First Name: ">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="80.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="studentFirstName" prefHeight="42.0" prefWidth="160.0" promptText="Eg: Jane Doe" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="31.0" prefWidth="303.0">
+               <children>
+                  <Label prefHeight="43.0" prefWidth="104.0" text="Address: ">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="80.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="studentAddress" prefHeight="42.0" prefWidth="160.0" promptText="Eg: 123 Jane St" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="31.0" prefWidth="303.0">
+               <children>
+                  <Label prefHeight="43.0" prefWidth="104.0" text="Province: ">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="80.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="studentProvince" prefHeight="42.0" prefWidth="160.0" promptText="Eg: Ontario" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="31.0" prefWidth="303.0">
+               <children>
+                  <Label prefHeight="43.0" prefWidth="104.0" text="City: ">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="80.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="studentCity" prefHeight="42.0" prefWidth="160.0" promptText="Eg: Barrie" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="31.0" prefWidth="303.0">
+               <children>
+                  <Label prefHeight="31.0" prefWidth="162.0" text="Phone Number: ">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="21.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="studentPhoneNumber" prefHeight="42.0" prefWidth="160.0" promptText="Eg: (705) 123 4567" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="31.0" prefWidth="303.0">
+               <children>
+                  <Label prefHeight="31.0" prefWidth="120.0" text="Postal Code: ">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="64.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="studentPostalCode" prefHeight="42.0" prefWidth="160.0" promptText="Eg: L1P 2L2" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="31.0" prefWidth="303.0">
+               <children>
+                  <Label prefHeight="43.0" prefWidth="104.0" text="Email ID:">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="80.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="studentEmailAddress" prefHeight="42.0" prefWidth="160.0" promptText="Eg: JaneDoe@gmail.com" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="370.0" layoutY="10.0" prefHeight="279.0" prefWidth="268.0">
+         <children>
+            <HBox prefHeight="32.0" prefWidth="268.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="138.0" text="Activites Opt-In">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="138.0" text="Student Major">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="169.0" prefWidth="268.0">
+               <children>
+                  <VBox prefHeight="240.0" prefWidth="146.0">
+                     <children>
+                        <CheckBox fx:id="actBasketballCheckBox" mnemonicParsing="false" text="Basketball">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </CheckBox>
+                        <CheckBox fx:id="actVolleyballCheck" mnemonicParsing="false" text="Volleyball">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </CheckBox>
+                        <CheckBox fx:id="actStudentCouncilCheck" mnemonicParsing="false" text="Student Council">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </CheckBox>
+                        <CheckBox fx:id="actFootballCheck" mnemonicParsing="false" text="Football">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </CheckBox>
+                        <CheckBox fx:id="actVolunteerCheck" mnemonicParsing="false" text="Volunteer Work">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </CheckBox>
+                        <CheckBox fx:id="actSwimmingCheck" mnemonicParsing="false" text="Swimming" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="240.0" prefWidth="153.0">
+                     <children>
+                        <RadioButton fx:id="majorCompSciRadio" mnemonicParsing="false" onMouseClicked="#onCompSciCheckClicked" text="Computer Science">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </RadioButton>
+                        <RadioButton fx:id="majorBusinessRadio" mnemonicParsing="false" onMouseClicked="#OnBusinessCheckClicked" text="Busines Analyst"/>
+                        <Label text="Select Subject">
+                           <VBox.margin>
+                              <Insets top="15.0" />
+                           </VBox.margin>
+                        </Label>
+                        <ChoiceBox fx:id="SubjectSelection" prefWidth="150.0" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <Button fx:id="DisplayOutput" mnemonicParsing="false" onMouseClicked="#OnDisplayOutputClicked" prefHeight="75.0" prefWidth="268.0" text="Display">
+               <font>
+                  <Font name="Monospaced Regular" size="35.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <TextArea fx:id="StudentOutput" editable="false" layoutX="13.0" layoutY="304.0" prefHeight="200.0" prefWidth="630.0" promptText="Output:">
+         <font>
+            <Font name="Monospaced Regular" size="20.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
